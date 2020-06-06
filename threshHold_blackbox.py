@@ -1,8 +1,8 @@
 import cv2 as cv
 import numpy as np
 
-img1 = cv.imread('/home/srikarsiddarth/projects/garbageSegregator/a3.jpeg')
-img2 = cv.imread('/home/srikarsiddarth/projects/garbageSegregator/b3.jpeg')
+img1 = cv.imread('a3.jpeg')
+img2 = cv.imread('b3.jpeg')
 
 def preprocess(img):
 	gray = cv.cvtColor(img, cv.COLOR_BGR2GRAY)
