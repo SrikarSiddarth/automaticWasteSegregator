@@ -1,2 +1,2 @@
 # automaticWasteSegregator
-complete code for running the AWS process
+ code for running the AWS process
